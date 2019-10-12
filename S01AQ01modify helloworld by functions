@@ -1,0 +1,8 @@
+#modify the first hello world by defining function
+
+def say_hello():
+    print("hello",username)
+
+username=input("enter the user:")
+#main starts here
+say_hello()
