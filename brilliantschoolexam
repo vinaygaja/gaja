@@ -20,7 +20,10 @@ maxtotal=maxeng+maxsc+maxmat
 
 maxscored=seng+sst+smat
 
-total=maxscored/maxtotal
+total=(maxscored/maxtotal)*100
+
+print('total percentage:',total,'%')
+
 
 if total>90:
     print('A Grade')
