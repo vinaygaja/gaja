@@ -19,7 +19,6 @@ print('character present in 2nd & 5th position:',sent[2],'&',sent[5])
 i=len(sent)
 i=i//2
 print('character at its center:',sent[i])
-i=int(i)
 print(sent[i-1],sent[i],sent[i+1])
 
 
