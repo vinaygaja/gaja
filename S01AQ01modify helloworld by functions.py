@@ -14,12 +14,12 @@
 
 #modify the first hello world by defining function
 
-def say_hello():
-    print("Hello",name,"!!!")
+def say_hello(username):
+    print("Hello",username,"!!!")
 
 name=input("enter the user:")
 #main starts here
-say_hello()
+say_hello(name)
 
 #getting output:s
 ## RESTART: C:\Users\Administrator\Desktop\pythonexercises\S01AQ01modify helloworld by functions.py.py 
